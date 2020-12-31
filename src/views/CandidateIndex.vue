@@ -3,8 +3,9 @@
 <template>
   <div class="candidate-index">
     <h1>{{ message }}</h1>
-    <button v-on:click="candidateIndex"></button>
+    <button v-on:click="candidateIndex">candidateIndex</button>
     <div v-for="candidate in candidates">
+    <h1>{{ candidate.image }}</h1>
     <h1>{{ candidate.first_name }}</h1>
     <h1>{{ candidate.last_name }}</h1>
     <h1>{{ candidate.gender }}</h1>
