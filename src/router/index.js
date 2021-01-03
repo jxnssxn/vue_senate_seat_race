@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import CandidateIndex from '../views/CandidateIndex.vue';
+import CandidateShow from '../views/CandidateShowPage.vue';
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/candidates',
     name: 'index-details',
     component: CandidateIndex
+  },
+  {
+    path: '/candidates/:id',
+    name: 'show-details',
+    component: CandidateShow
   },
   {
     path: '/about',

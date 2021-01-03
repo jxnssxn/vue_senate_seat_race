@@ -16,10 +16,15 @@
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "babel-loader": "^8.2.2",
     "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.0"
   }
 }
