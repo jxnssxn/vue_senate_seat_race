@@ -15,21 +15,23 @@
       <h4>  Thumbs down: {{candidate.thumbs_down}}</h4>
       <br>
       
-
+        
       <h2>---------------</h2>
       <h2>Issues</h2>
-      <div v-for="candidate in candidates">
-        <h3>{{ candidate.topic }}</h3>
-        <h3>{{ candidate.stance }}</h3>
+      <div>
+      <div v-for="issue in issues">
+        <h3>{{ issue.topic }}</h3>
+        <h3>{{ issue.stance }}</h3>
       </div>
 
-      <div>
+      <!-- <div>
         <table>
           <th>issues</th>
           <th>{{issue}}</th>
         </table>
-      </div>
+      </div> -->
 
+      </div>
     </div>
   </div>
 </template>
@@ -43,7 +45,7 @@ export default {
   data: function () {
     return {
       message: "Welcome to Vue.js!",
-      candidates: [],
+      // candidates: [],
       candidate: {},
       issues: [],
       issue: {},
@@ -63,9 +65,9 @@ export default {
     },
     issueIndex: function () {
       console.log("issues index");
-      axios.get("/api/issues").then((response) => {
+      axios.get(`/api/issues/${this.$route.params.id}`).then((response) => {
         console.log(response.data);
-        this.candidates = response.data;
+        this.issues = response.data;
       });
     },
   },
