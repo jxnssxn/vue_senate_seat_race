@@ -1,21 +1,31 @@
 <template>
-  <div class="candidate-index">
-    <h1>{{ message }}</h1>
-    <div v-for="candidate in candidates">
-    <div class="card mb-3" style="max-width: 740px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <p><img v-bind:src="candidate.image" v-bind:alt="candidate.title"></p>
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title"><h4>{{ candidate.full_name }}</h4></h5>
-        <p class="card-text"><h4>{{ candidate.gender }}</h4><h4>{{ candidate.party_registered_to }}</h4><h4>{{ candidate.thumbs_up }}</h4><h4>{{ candidate.thumbs_down }}</h4>
-      </div>
-    </div>
-  </div>
-</div>
-    <!-- <button v-on:click="candidateIndex">candidateIndex</button> -->
+  <div class="index-details">
+    <div id="wrapper">
+    <!-- Main -->
+          <div id="main">
+            <div class="inner">
+              <header>
+                <h1>{{ message }}</h1>
+              </header>
+              <div v-for="candidate in candidates">
+                <section class="tiles">
+                  <article class="style2">
+                    <span class="image">
+                      <router-link v-bind:to="`/candidates/${candidate.id}`">
+                        <img v-bind:src="candidate.image">
+                        <h2>{{ candidate.full_name }}</h2>
+                        <div class="content">
+                          <p><h4>Party: {{ candidate.party_registered_to }}</h4>
+                        </div>
+                      </router-link>
+                    </span>
+                    <br>
+                  </article>
+                </section>
+              </div>
+            </div>
+          </div>
+
     </div>
   </div>
 </template>
