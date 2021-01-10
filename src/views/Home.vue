@@ -11,7 +11,6 @@
 export default {
   data: function () {
     return {
-      candidates: [],
       message: "Welcome to Vue.js!",
     };
   },

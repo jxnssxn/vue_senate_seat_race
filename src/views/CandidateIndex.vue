@@ -2,29 +2,143 @@
   <div class="index-details">
     <div id="wrapper">
     <!-- Main -->
-          <div id="main">
-            <div class="inner">
-              <header>
-                <h1>{{ message }}</h1>
-              </header>
-              <div v-for="candidate in candidates">
-                <section class="tiles">
-                  <article class="style2">
-                    <span class="image">
-                      <router-link v-bind:to="`/candidates/${candidate.id}`">
-                        <img v-bind:src="candidate.image">
-                        <h2>{{ candidate.full_name }}</h2>
-                        <div class="content">
-                          <p><h4>Party: {{ candidate.party_registered_to }}</h4>
-                        </div>
-                      </router-link>
-                    </span>
-                    <br>
-                  </article>
-                </section>
-              </div>
-            </div>
-          </div>
+    <div id="main">
+						<div class="inner">
+							<header>
+								<h1>This is Phantom, a free, fully responsive site<br />
+								template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+							</header>
+							<section class="tiles">
+								<article class="style2">
+									<span class="image">
+										<img src="https://www.gannett-cdn.com/presto/2020/10/26/USAT/24706bf7-270d-46eb-9121-762d0dec7704-GTY_1229202423.jpg?width=660&height=440&fit=crop&format=pjpg&auto=webp" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Magna</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="https://pbs.twimg.com/profile_images/1334232158207168515/K-i3xjEK.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Lorem</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<!-- <span class="image"> -->
+										<!-- <img src="images/pic03.jpg" alt="" /> -->
+									<!-- </span> -->
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Tempus</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Aliquam</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<!-- <span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span> -->
+									<!-- <a href="generic.html">
+										<h2>Veroeros</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a> -->
+								</article>
+								<!-- <article class="style2">
+									<span class="image">
+										<img src="images/pic07.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Ipsum</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/pic08.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Dolor</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/pic09.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Nullam</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic10.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Ultricies</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic11.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Dictum</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic12.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Pretium</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article> -->
+							</section>
+						</div>
+					</div>
 
     </div>
   </div>

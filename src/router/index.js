@@ -1,8 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
 import CandidateIndex from '../views/CandidateIndex.vue';
+import Home from '../views/Home.vue';
 import CandidateShow from '../views/CandidateShowPage.vue';
+import Signup from '../views/Signup.vue';
+import Login from '../views/Login.vue';
+import Logout from '../views/Logout.vue';
 
 Vue.use(VueRouter);
 
@@ -16,6 +19,21 @@ const routes = [
     path: '/candidates',
     name: 'index-details',
     component: CandidateIndex
+  },
+  {
+    path: '/signup',
+    name: 'signup-details',
+    component: Signup
+  },
+  {
+    path: '/login',
+    name: 'login-details',
+    component: Login
+  },
+  {
+    path: '/logout',
+    name: 'logout-details',
+    component: Logout
   },
   {
     path: '/candidates/:id',
