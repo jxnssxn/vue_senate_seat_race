@@ -14,8 +14,8 @@
 									<span class="image">
 										<img src="https://www.gannett-cdn.com/presto/2020/10/26/USAT/24706bf7-270d-46eb-9121-762d0dec7704-GTY_1229202423.jpg?width=660&height=440&fit=crop&format=pjpg&auto=webp" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Magna</h2>
+									<a href="/candidates/13">
+										<!-- <h2>Magna</h2> -->
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
@@ -25,8 +25,8 @@
 									<span class="image">
 										<img src="https://pbs.twimg.com/profile_images/1334232158207168515/K-i3xjEK.jpg" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Lorem</h2>
+									<a href="/candidates/14">
+										<!-- <h2>Lorem</h2> -->
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
@@ -41,8 +41,8 @@
 									<span class="image">
 										<img src="https://media3.s-nbcnews.com/j/newscms/2020_48/3431011/201125-david_perdue-mc-1313_cb5780c62237fbfebd446ea807170c06.nbcnews-fp-1200-630.JPG" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Tempus</h2>
+									<a href="/candidates/15">
+										<!-- <h2>Tempus</h2> -->
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
@@ -52,8 +52,8 @@
 									<span class="image">
 										<img src="https://thehill.com/sites/default/files/loefflerkelly_010620gn5_lead.jpg" alt="" />
 									</span>
-									<a href="generic.html">
-										<h2>Aliquam</h2>
+									<a href="/candidates/16">
+										<!-- <h2>Aliquam</h2> -->
 										<div class="content">
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
