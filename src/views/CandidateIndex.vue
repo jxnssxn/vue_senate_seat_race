@@ -39,7 +39,7 @@
 								</article>
 								<article class="style1">
 									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
+										<img src="https://media3.s-nbcnews.com/j/newscms/2020_48/3431011/201125-david_perdue-mc-1313_cb5780c62237fbfebd446ea807170c06.nbcnews-fp-1200-630.JPG" alt="" />
 									</span>
 									<a href="generic.html">
 										<h2>Tempus</h2>
@@ -50,7 +50,7 @@
 								</article>
 								<article class="style1">
 									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
+										<img src="https://thehill.com/sites/default/files/loefflerkelly_010620gn5_lead.jpg" alt="" />
 									</span>
 									<a href="generic.html">
 										<h2>Aliquam</h2>
