@@ -5,9 +5,7 @@
 
 					<header class="special container">
 						<span class="icon solid fa-chart-bar"></span>
-						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
-						<br />
-						I decided to give it a really creative name.</h2>
+						<h2><strong>Senate Seat Race</strong> is introducing the four contenders<br>that are aiming to reshape <strong>America</strong>.</h2>
 						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
 						<br />
 						it's minimally designed, fully responsive, built on HTML5/CSS3,
@@ -20,7 +18,7 @@
 						<section class="wrapper style3 container special">
 
 							<header class="major">
-								<h2>Next look at this <strong>cool stuff</strong></h2>
+								<h2>These are the four<strong> Candidates!</strong></h2>
 							</header>
 
 							<div class="row">

@@ -51,10 +51,10 @@
 						<br />
 						responsive template
 						<br />
-						by <a href="http://html5up.net">HTML5 UP</a>.</p>
+						by <a href="http://html5up.net">Sign up</a>.</p>
 						<footer>
 							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+								<li><a href="#main" class="button fit scrolly">Login</a></li>
 							</ul>
 						</footer>
 
