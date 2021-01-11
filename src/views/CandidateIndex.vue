@@ -1,145 +1,86 @@
 <template>
   <div class="index-details">
-    <div id="wrapper">
-    <!-- Main -->
-    <div id="main">
-						<div class="inner">
-							<header>
-								<h1>Georgia Senate Candidates running to represent you.</h1>
-								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
-							</header>
-							<section class="tiles">
-								<article class="style2">
-									<span class="image">
-										<img src="https://www.gannett-cdn.com/presto/2020/10/26/USAT/24706bf7-270d-46eb-9121-762d0dec7704-GTY_1229202423.jpg?width=660&height=440&fit=crop&format=pjpg&auto=webp" alt="" />
-									</span>
-									<a href="/candidates/13">
-										<!-- <h2>Magna</h2> -->
-										<div class="content">
-											<p>Reverend Raphael Warnock grew up in Kayton Homes public housing in Savannah. The family was short on money, but long on faith, love and humor.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="https://pbs.twimg.com/profile_images/1334232158207168515/K-i3xjEK.jpg" alt="" />
-									</span>
-									<a href="/candidates/14">
-										<!-- <h2>Lorem</h2> -->
-										<div class="content">
-											<p>Jon Ossoff is a Georgia native, media executive, investigative journalist, and small business owner. Jon and his wife Alisha, an OB/GYN physician, both grew up in Atlanta.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<!-- <span class="image"> -->
-										<!-- <img src="images/pic03.jpg" alt="" /> -->
-									<!-- </span> -->
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="https://media3.s-nbcnews.com/j/newscms/2020_48/3431011/201125-david_perdue-mc-1313_cb5780c62237fbfebd446ea807170c06.nbcnews-fp-1200-630.JPG" alt="" />
-									</span>
-									<a href="/candidates/15">
-										<!-- <h2>Tempus</h2> -->
-										<div class="content">
-											<p>David Perdue is the senior United States Senator from Georgia. David has over 40 years of business experience as the former CEO of Reebok athletic brand and Dollar General stores.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="https://thehill.com/sites/default/files/loefflerkelly_010620gn5_lead.jpg" alt="" />
-									</span>
-									<a href="/candidates/16">
-										<!-- <h2>Aliquam</h2> -->
-										<div class="content">
-											<p>Loeffler was born in Bloomington, Il. Loeffler, raised on her family's corn and soybean farm in Stanford, Il. In 1988, she graduated from Olympia High School in Stanford, where she was in marching band, ran cross-country and track, and played varsity basketbal</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<!-- <span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span> -->
-									<!-- <a href="generic.html">
-										<h2>Veroeros</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a> -->
-								</article>
-								<!-- <article class="style2">
-									<span class="image">
-										<img src="images/pic07.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ipsum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic08.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dolor</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Nullam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ultricies</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic11.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dictum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic12.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Pretium</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-							</section>
-						</div>
-					</div>
+				<!-- Main -->
+				<article id="main">
 
-    </div>
+					<header class="special container">
+						<span class="icon solid fa-chart-bar"></span>
+						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
+						<br />
+						I decided to give it a really creative name.</h2>
+						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
+						<br />
+						it's minimally designed, fully responsive, built on HTML5/CSS3,
+						and, like all my stuff,
+						<br />
+						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+					</header>
+
+					<!-- Three -->
+						<section class="wrapper style3 container special">
+
+							<header class="major">
+								<h2>Next look at this <strong>cool stuff</strong></h2>
+							</header>
+
+							<div class="row">
+								<div class="col-6 col-12-narrower">
+
+									<section>
+										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+										<header>
+											<h3>Raphael Warnock</h3>
+										</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+								<div class="col-6 col-12-narrower">
+
+									<section>
+										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>Jon Ossoff</h3>
+										</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-6 col-12-narrower">
+
+									<section>
+										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Kelly Loeffler</h3>
+										</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+								<div class="col-6 col-12-narrower">
+
+									<section>
+										<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>David Perdue</h3>
+										</header>
+										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+									</section>
+
+								</div>
+							</div>
+
+							<footer class="major">
+								<ul class="buttons">
+									<li><a href="#" class="button">See More</a></li>
+								</ul>
+							</footer>
+
+						</section>
+
+				</article>
   </div>
 </template>
 

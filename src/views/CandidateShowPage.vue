@@ -6,6 +6,7 @@
       </header>
       
       <img v-bind:src="candidate.image">
+      <div>
       <h4>  {{candidate.full_name}}</h4>
       <h4>  Email: {{candidate.email}}</h4>
       <h4>  Age: {{candidate.age}}</h4>
@@ -13,7 +14,7 @@
       <!-- <h4>: {{candidate.issues_id}}</h4> -->
       <h4>  Thumbs up: {{candidate.thumbs_up}}</h4>
       <h4>  Thumbs down: {{candidate.thumbs_down}}</h4>
-      <br>
+      </div>
       
         
       <h2>---------------</h2>
@@ -24,9 +25,18 @@
         <h3>{{ issue.stance }}</h3>
       </div>
 
-      <div id="components-demo">
-        <button-counter>like</button-counter>
+      <div>
+        <p><li><a href="/candidates" class="button">Thumbs up</a></li>
+        <li><a href="/candidates" class="button">Thumbs down</a></li></p>
+        <br>
       </div>
+     
+      <!-- <a href="/candidates" class="thumbsDOWN-button">Thumbs down</a> -->
+
+
+      <!-- <div id="components-demo">
+        <button-counter>like</button-counter>
+      </div> -->
 
       <!-- <div>
         <table>
@@ -68,6 +78,7 @@
 <script>
 import axios from "axios";
 import Vue from "vue";
+
 Vue.component("button-counter", {
   data: function () {
     return {
@@ -77,6 +88,9 @@ Vue.component("button-counter", {
   template:
     '<button v-on:click="count++">You clicked me {{ count }} times.</button>',
 });
+
+// new Vue({ el: "#components-demo" });
+
 export default {
   data: function () {
     return {
