@@ -4,18 +4,18 @@
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+					<h1 id="logo">SSR <span>by Jimmy Jonsson</span></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Welcome</a></li>
+							<li class="current"><a href="/candidates/">Home</a></li>
 							<li class="submenu">
-								<a href="#">Layouts</a>
+								<a href="#">Candidates</a>
 								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li class="submenu">
+									<li><a href="left-sidebar.html">Jon Ossoff</a></li>
+									<li><a href="right-sidebar.html">Raphael Warnock</a></li>
+									<li><a href="no-sidebar.html">Kelly Leoffler</a></li>
+									<li><a href="contact.html">David Perdue</a></li>
+									<!-- <li class="submenu">
 										<a href="#">Submenu</a>
 										<ul>
 											<li><a href="#">Dolore Sed</a></li>
@@ -24,7 +24,7 @@
 											<li><a href="#">Sed Magna</a></li>
 											<li><a href="#">Ipsum Nisl</a></li>
 										</ul>
-									</li>
+									</li> -->
 								</ul>
 							</li>
 							<li><a href="#" class="button primary">Sign Up</a></li>
@@ -32,35 +32,7 @@
 					</nav>
 				</header>
 
-			<!-- Banner -->
-				<section id="banner">
 
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div class="inner">
-
-						<header>
-							<h2>Senate Seat</h2>
-							<h2>Race</h2>
-						</header>
-						<p>This is <strong>Twenty</strong>, a free
-						<br />
-						responsive template
-						<br />
-						by <a href="http://html5up.net">Sign up</a>.</p>
-						<footer>
-							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">Login</a></li>
-							</ul>
-						</footer>
-
-					</div>
-
-				</section>
 				<router-view />
 			<!-- Main -->
 				<article id="main">
@@ -238,7 +210,7 @@
 						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
 						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<!-- <li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li> -->
 					</ul>
 
 					<ul class="copyright">

@@ -1,74 +1,97 @@
 <template>
   <div class="show-details">
-    <div id="wrapper">
-      <header>
-        <h1>{{ message }}</h1>
-      </header>
-      
-      <img v-bind:src="candidate.image">
-      <div>
-      <h4>  {{candidate.full_name}}</h4>
-      <h4>  Email: {{candidate.email}}</h4>
-      <h4>  Age: {{candidate.age}}</h4>
-      <h4>  Party: {{candidate.party_registered_to}}</h4>
-      <!-- <h4>: {{candidate.issues_id}}</h4> -->
-      <h4>  Thumbs up: {{candidate.thumbs_up}}</h4>
-      <h4>  Thumbs down: {{candidate.thumbs_down}}</h4>
-      </div>
-      
-        
-      <h2>---------------</h2>
-      <h2>Issues</h2>
-      <div>
-      <div v-for="issue in issues">
-        <h3>{{ issue.topic }}</h3>
-        <h3>{{ issue.stance }}</h3>
-      </div>
+  
 
-      <div>
-        <p><li><a href="/candidates" class="button">Thumbs up</a></li>
-        <li><a href="/candidates" class="button">Thumbs down</a></li></p>
-        <br>
-      </div>
-     
-      <!-- <a href="/candidates" class="thumbsDOWN-button">Thumbs down</a> -->
+    <div id="page-wrapper">
+
+			
 
 
-      <!-- <div id="components-demo">
-        <button-counter>like</button-counter>
-      </div> -->
 
-      <!-- <div>
-        <table>
-          <th>issues</th>
-          <th>{{issue}}</th>
-        </table>
-      </div> -->
-          <footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-            </div>
-          </footer>
-      </div>
-    </div>
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<!-- <span class="icon solid fa-mobile-alt"></span> -->
+						<h2>And finally there's <strong>No Sidebar</strong></h2>
+						<p>Where that in the center faces the nameless horrors alone.</p>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+									<section>
+										<a href="#" class="image featured"><img src="/images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Dolore Amet Consequat</h3>
+										</header>
+										<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum massa. Morbi eu faucibus massa. Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
+									
+									</section>
+								</div>
+
+						</section>
+
+					<!-- Two -->
+						<section class="wrapper style1 container special">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h4>Visit {{candidate.full_name}}'s website</h4>
+										</header>
+										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+										<footer>
+											<ul class="buttons">
+												<li><a href="#" class="button small">Learn More</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h4>Message {{candidate.full_name}}</h4>
+										</header>
+										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+										<footer>
+											<ul class="buttons">
+												<li><a href="#" class="button small">Learn More</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<header>
+											<h4>Register to vote</h4>
+										</header>
+										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+										<footer>
+											<ul class="buttons">
+												<li><a href="#" class="button small">Learn More</a></li>
+											</ul>
+										</footer>
+									</section>
+
+								</div>
+							</div>
+						</section>
+
+				</article>
+
+
+
+		</div>
+
+
   </div>
 </template>
 
@@ -95,7 +118,7 @@ export default {
   data: function () {
     return {
       message: "Welcome to Vue.js!",
-      // candidates: [],
+      candidates: [],
       candidate: {},
       issues: [],
       issue: {},
