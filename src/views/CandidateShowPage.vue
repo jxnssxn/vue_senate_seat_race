@@ -1,9 +1,6 @@
 <template>
   <div class="show-details">
-  
-
     <div id="page-wrapper">
-
 				<!-- Banner -->
 				<section id="banner">
 
@@ -34,12 +31,13 @@
 				</section>
 			<!-- Main -->
 				<article id="main">
-
 					<header class="special container">
-						<h2>Meet {{candidate.full_name}}</h2>
+						<p><h2>Meet {{candidate.full_name}}</h2></p>
 						<img v-bind:src="candidate.image">
-						<p>Where that in the center faces the nameless horrors alone.</p>
-
+						<p>
+							<!-- There are 4 issues lined out on candidate page, get familiar with candidate's stances and leave a thumbs up or a thumbs down based on if you agree or disagree. -->
+						<h3>Give {{candidate.full_name}} a thumbs up or a thumbs down, based on how you align with the stances on health care, criminal justice reform, climate crisis, and social justice inequality.</h3>
+						</p>
 						<ul class="buttons">
 							
 
@@ -50,10 +48,6 @@
 							<li><a href="#" class="button"><i class="fa fa-thumbs-down"></i> Thumbs down</a></li>
 						</ul>
 					</header>
-
-						
-
-
 					<!-- One -->
 						<section class="wrapper style4 container">
 
@@ -77,7 +71,6 @@
 								</div>
 
 						</section>
-
 					<!-- Two -->
 						<section class="wrapper style1 container special">
 							<div class="row">
@@ -125,11 +118,8 @@
 								</div>
 							</div>
 						</section>
-
 				</article>
 		</div>
-
-
   </div>
 </template>
 
