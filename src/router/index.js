@@ -6,6 +6,7 @@ import CandidateShow from '../views/CandidateShowPage.vue';
 import Signup from '../views/Signup.vue';
 import Login from '../views/Login.vue';
 import Logout from '../views/Logout.vue';
+import Contact from '../views/Contact.vue';
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/candidates/:id',
     name: 'show-details',
     component: CandidateShow
+  },
+  {
+    path: '/Contact',
+    name: 'contact-candidate',
+    component: Contact
   },
   {
     path: '/about',

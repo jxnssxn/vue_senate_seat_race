@@ -103,7 +103,7 @@
 										</header>
 										<footer>
 											<ul class="buttons">
-												<li><a href="#" class="button small">send a message</a></li>
+												<li><a href="/Contact" class="button small">send a message</a></li>
 											</ul>
 										</footer>
 									</section>
