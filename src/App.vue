@@ -27,7 +27,7 @@
 									</li> -->
 								</ul>
 							</li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
+							<li><a href="/signup" class="button primary">Sign Up</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -35,11 +35,11 @@
 
 				<router-view />
 			<!-- Main -->
-				<article id="main">
+				<!-- <article id="main"> -->
 
-					<header class="special container">
-						<span class="icon solid fa-chart-bar"></span>
-						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
+					<!-- <header class="special container">
+						<!-- <span class="icon solid fa-chart-bar"></span> -->
+						<!-- <h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
 						<br />
 						I decided to give it a really creative name.</h2>
 						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
@@ -47,8 +47,8 @@
 						it's minimally designed, fully responsive, built on HTML5/CSS3,
 						and, like all my stuff,
 						<br />
-						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
-					</header>
+						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p> -->
+					<!-- </header>  -->
 
 					<!-- One -->
 						<!-- <section class="wrapper style2 container special-alt">
@@ -184,23 +184,9 @@
 
 						</section> -->
 
-				</article>
+				<!-- </article> -->
 
-			<!-- CTA -->
-				<section id="cta">
-
-					<header>
-						<h2>Ready to do <strong>something</strong>?</h2>
-						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
-					</header>
-					<footer>
-						<ul class="buttons">
-							<li><a href="#" class="button primary">Take My Money</a></li>
-							<li><a href="#" class="button">LOL Wut</a></li>
-						</ul>
-					</footer>
-
-				</section>
+			
 
 			<!-- Footer -->
 				<footer id="footer">
@@ -208,8 +194,8 @@
 					<ul class="icons">
 						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<!-- <li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
+						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li> -->
 						<!-- <li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li> -->
 					</ul>
 

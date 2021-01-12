@@ -4,18 +4,51 @@
 
     <div id="page-wrapper">
 
-			
+				<!-- Banner -->
+				<section id="banner">
 
+					<!--
+						".inner" is set up as an inline-block so it automatically expands
+						in both directions to fit whatever's inside it. This means it won't
+						automatically wrap lines, so be sure to use line breaks where
+						appropriate (<br />).
+					-->
+					<div class="inner">
 
+						<header>
+							<h2>Senate Seat</h2>
+							<h2>Race</h2>
+						</header>
+						<p>Make <strong>your voice</strong>, count.
+						<br />
+						vote for your representation 
+						<br /></p>
+						<footer>
+							<!-- <ul class="buttons stacked">
+								<li><a href="/login" class="button fit scrolly">Login</a></li>
+							</ul> -->
+						</footer>
 
+					</div>
+
+				</section>
 			<!-- Main -->
 				<article id="main">
 
 					<header class="special container">
 						<!-- <span class="icon solid fa-mobile-alt"></span> -->
-						<h2>And finally there's <strong>No Sidebar</strong></h2>
+						<h2>Meet {{candidate.full_name}}</h2>
+						<img v-bind:src="candidate.image">
 						<p>Where that in the center faces the nameless horrors alone.</p>
+
+						<ul class="buttons">
+							<li><a href="#" class="button primary">Thumbs up</a></li>
+							<li><a href="#" class="button">Thumbs down</a></li>
+						</ul>
 					</header>
+
+						
+
 
 					<!-- One -->
 						<section class="wrapper style4 container">
@@ -23,11 +56,18 @@
 							<!-- Content -->
 								<div class="content">
 									<section>
-										<a href="#" class="image featured"><img src="/images/pic04.jpg" alt="" /></a>
+									
 										<header>
-											<h3>Dolore Amet Consequat</h3>
+											<h4>Email: {{candidate.email}}</h4>
+											<h4>Age: {{candidate.age}}</h4>
+											<h4>Party: {{candidate.party_registered_to}}</h4>
+											<h4>Thumbs up: {{candidate.thumbs_up}}</h4>
+											<h4>Thumbs down: {{candidate.thumbs_down}}</h4>
 										</header>
-										<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum massa. Morbi eu faucibus massa. Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
+										<div v-for="issue in issues">
+											<h3><strong>{{ issue.topic }}</strong></h3>
+											<h3>{{ issue.stance }}</h3>
+										</div>
 									
 									</section>
 								</div>
@@ -43,10 +83,9 @@
 										<header>
 											<h4>Visit {{candidate.full_name}}'s website</h4>
 										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
 										<footer>
 											<ul class="buttons">
-												<li><a href="#" class="button small">Learn More</a></li>
+												<li><a href="#" class="button small">Visit site</a></li>
 											</ul>
 										</footer>
 									</section>
@@ -56,12 +95,11 @@
 
 									<section>
 										<header>
-											<h4>Message {{candidate.full_name}}</h4>
+											<h4>Contact {{candidate.full_name}}</h4>
 										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
 										<footer>
 											<ul class="buttons">
-												<li><a href="#" class="button small">Learn More</a></li>
+												<li><a href="#" class="button small">send a message</a></li>
 											</ul>
 										</footer>
 									</section>
@@ -73,10 +111,9 @@
 										<header>
 											<h4>Register to vote</h4>
 										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
 										<footer>
 											<ul class="buttons">
-												<li><a href="#" class="button small">Learn More</a></li>
+												<li><a href="#" class="button small">I'm voting</a></li>
 											</ul>
 										</footer>
 									</section>

@@ -20,11 +20,11 @@
 						<br />
 						vote for your representation 
 						<br /></p>
-						<!-- <footer>
+						<footer>
 							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">Login</a></li>
+								<li><a href="/login" class="button fit scrolly">Login</a></li>
 							</ul>
-						</footer> -->
+						</footer>
 
 					</div>
 
@@ -34,7 +34,7 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon solid fa-chart-bar"></span>
+						<!-- <span class="icon solid fa-chart-bar"></span> -->
 						<h2><strong>Senate Seat Race</strong> is introducing the four contenders<br>that are aiming to reshape <strong>America</strong>.</h2>
 						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
 						<br />
@@ -80,7 +80,6 @@
 							</div>
 							<div class="row">
 								<div class="col-6 col-12-narrower">
-
 									<section>
 										<a v-bind:href="'/candidates/16'" class="image featured"><img src="https://thehill.com/sites/default/files/loefflerkelly_010620gn5_lead.jpg" alt="" /></a>
 										<header>
@@ -88,7 +87,6 @@
 										</header>
 										<p>Loeffler was born in Bloomington, Illinois, to Don and Lynda Loeffler, and raised on her family's corn and soybean farm in Stanford, Illinois. In 1988, she graduated from Olympia High School in Stanford, where she was in marching band, ran cross-country and track, and played varsity basketball.</p>
 									</section>
-
 								</div>
 								<div class="col-6 col-12-narrower">
 
@@ -104,13 +102,18 @@
 							</div>
 
 							<footer class="major">
-								<!-- ///////////Do I want a button here?/////////// -->
+								<!-- ///////////Do I want a button here?///////////  -->
 								<!-- <ul class="buttons">
 									<li><a href="#" class="button">See More</a></li>
 								</ul> -->
-							</footer>
+							 </footer>
 
 						</section>
+
+
+
+
+
 
 				</article>
   </div>
