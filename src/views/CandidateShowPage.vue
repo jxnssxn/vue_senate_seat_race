@@ -36,14 +36,18 @@
 				<article id="main">
 
 					<header class="special container">
-						<!-- <span class="icon solid fa-mobile-alt"></span> -->
 						<h2>Meet {{candidate.full_name}}</h2>
 						<img v-bind:src="candidate.image">
 						<p>Where that in the center faces the nameless horrors alone.</p>
 
 						<ul class="buttons">
-							<li><a href="#" class="button primary">Thumbs up</a></li>
-							<li><a href="#" class="button">Thumbs down</a></li>
+							
+
+							
+							
+							<li><a href="#" class="button primary"><i class="fa fa-thumbs-up"></i> Thumbs up</a></li>
+							
+							<li><a href="#" class="button"><i class="fa fa-thumbs-down"></i> Thumbs down</a></li>
 						</ul>
 					</header>
 
@@ -113,7 +117,7 @@
 										</header>
 										<footer>
 											<ul class="buttons">
-												<li><a href="#" class="button small">I'm voting</a></li>
+												<li><a href="https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button" class="button small">I'm voting</a></li>
 											</ul>
 										</footer>
 									</section>
@@ -139,9 +143,11 @@
 import axios from "axios";
 import Vue from "vue";
 
-Vue.component("button-counter", {
+Vue.component("button primary", "button", {
   data: function () {
     return {
+      thumbsUp: 0,
+      thumbsDown: 0,
       count: 0,
     };
   },
