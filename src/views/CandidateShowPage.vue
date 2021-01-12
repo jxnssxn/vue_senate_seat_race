@@ -127,9 +127,6 @@
 						</section>
 
 				</article>
-
-
-
 		</div>
 
 

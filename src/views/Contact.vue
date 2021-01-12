@@ -14,10 +14,10 @@
 					<h2>Senate Seat</h2>
 					<h2>Race</h2>
 				</header>
-				<p>Make <strong>your voice</strong>, count.
+				<p>Make <strong>your voice</strong> heard!
 				<br />
-				vote for your representation 
-				<br /></p>
+				Let the candidate know
+				<br />what you care about.</p>
 				<footer>
 					<!-- <ul class="buttons stacked">
 						<li><a href="/login" class="button fit scrolly">Login</a></li>
@@ -33,7 +33,7 @@
 			<header class="special container">
 				<span class="icon solid fa-envelope"></span>
 				<h2>Get In Touch</h2>
-				<p>Use the form below to give /dev/null a piece of your mind.</p>
+				<p>Use the form below to give {{candidate.full_name}} a piece of your mind.</p>
 			</header>
 
 			<!-- One -->
@@ -53,7 +53,7 @@
 										<input type="text" name="subject" placeholder="Subject" />
 									</div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message" rows="7"></textarea>
+										<textarea name="message" placeholder="What's on your mind?" rows="7"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="buttons">
@@ -78,7 +78,8 @@
 export default {
   data: function () {
     return {
-      message: "Welcome to Vue.js!",
+      candidates: [],
+      candidate: {},
     };
   },
   created: function () {},
