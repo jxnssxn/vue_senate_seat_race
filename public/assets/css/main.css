@@ -1803,9 +1803,10 @@ input, select, textarea {
 		border-radius: 0;
 		color: inherit;
 		display: block;
+		margin: auto;
 		padding: 0.75em;
 		text-decoration: none;
-		width: 100%;
+		width: 50%;
 		outline: 0;
 	}
 

@@ -58,7 +58,7 @@
 									<a v-bind:href="'/candidates/14'" class="image featured"><img src="https://i.insider.com/5fed2ae8a18a450018cb658c?width=700" alt="" /></a>
 									
 									<header>
-										<h3>jon ossoff</h3>
+										<h3>Jon Ossoff</h3>
 									</header>
 									<p>Jon Ossoff is a Georgia native, media executive, investigative journalist, and small business owner. Jon and his wife Alisha, an OB/GYN physician, both grew up in Atlanta.</p>
 								</section>

@@ -38,23 +38,20 @@
 							<!-- There are 4 issues lined out on candidate page, get familiar with candidate's stances and leave a thumbs up or a thumbs down based on if you agree or disagree. -->
 						<h3>Give {{candidate.full_name}} a thumbs up or a thumbs down, based on how you align with the stances on health care, criminal justice reform, climate crisis, and social justice inequality.</h3>
 						</p>
-						<ul class="buttons">
-							
-
-							
-							
-							<li><a href="#" class="button primary"><i class="fa fa-thumbs-up"></i> Thumbs up</a></li>
-							
+						<ul class="buttons">	
+							<li><a href="#" class="button primary"><i class="fa fa-thumbs-up"></i> Thumbs up</a></li>							
 							<li><a href="#" class="button"><i class="fa fa-thumbs-down"></i> Thumbs down</a></li>
 						</ul>
+							<div class="box">
+								<p>{{candidate.bio}}</p>
+							</div>		
 					</header>
+				
 					<!-- One -->
 						<section class="wrapper style4 container">
-
 							<!-- Content -->
 								<div class="content">
-									<section>
-									
+									<section>									
 										<header>
 											<h4>Email: {{candidate.email}}</h4>
 											<h4>Age: {{candidate.age}}</h4>
@@ -82,7 +79,7 @@
 										</header>
 										<footer>
 											<ul class="buttons">
-												<li><a href="#" class="button small">Visit site</a></li>
+												<li><a href="" class="button small">Visit site</a></li>
 											</ul>
 										</footer>
 									</section>
