@@ -10,8 +10,8 @@
 						automatically wrap lines, so be sure to use line breaks where
 						appropriate (<br />).
 					-->
+					
 					<div class="inner">
-
 						<header>
 							<h2>Senate Seat</h2>
 							<h2>Race</h2>
@@ -22,12 +22,10 @@
 						<br /></p>
 						<footer>
 							<ul class="buttons stacked">
-								<li><a href="/login" class="button fit scrolly">Login</a></li>
+								<li v-if="!isLoggedIn()" class="current"><a href="/login" class="button fit scrolly">Login</a></li>
 							</ul>
 						</footer>
-
 					</div>
-
 				</section>
 
 				<!-- Main -->
@@ -35,27 +33,22 @@
 
 					<header class="special container">
 						<!-- <span class="icon solid fa-chart-bar"></span> -->
-						<h2><strong>Senate Seat Race</strong> is introducing the four contenders<br>that are aiming to reshape <strong>America</strong>.</h2>
-						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-						<br />
-						it's minimally designed, fully responsive, built on HTML5/CSS3,
-						and, like all my stuff,
-						<br />
-						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+						<h2><strong>Senate Seat Race</strong> is introducing the four contenders<br>that are aiming to reshape <strong>America</strong>.</h2><br><br>
+						<strong><p>“All labor that uplifts humanity has dignity and importance and should be undertaken with painstaking excellence.”<br /> - Martin Luther King Jr</p></strong>
 					</header>
 
 					<!-- Three -->
 					<section class="wrapper style3 container special">
 
 						<header class="major">
-							<h2>These are the four<strong> Candidates!</strong></h2>
+							<h2>These are the four candidates running to represent <strong>Georgia</strong>!</h2>
 						</header>
 
 						<div class="row">
 							<div class="col-6 col-12-narrower">
 
 								<section>
-									<a v-bind:href="'/candidates/14'" class="image featured"><img src="https://i.insider.com/5fed2ae8a18a450018cb658c?width=700" alt="" /></a>
+									<a v-bind:href="'/candidates/14'" class="image featured"><img src="https://mobilizeamerica.imgix.net/uploads/event/ElectJon_20200923145157987926_20201030000610483317.png?auto=format&crop=faces&fit=crop&h=494.24083769633506&w=944" alt="" /></a>
 									
 									<header>
 										<h3>Jon Ossoff</h3>
@@ -67,7 +60,7 @@
 							<div class="col-6 col-12-narrower">
 
 								<section>
-									<a v-bind:href="'/candidates/13'" class="image featured"><img src="https://www.gannett-cdn.com/presto/2020/10/26/USAT/24706bf7-270d-46eb-9121-762d0dec7704-GTY_1229202423.jpg?width=660&height=440&fit=crop&format=pjpg&auto=webp" alt="" /></a>
+									<a v-bind:href="'/candidates/13'" class="image featured"><img src="https://mobilize-uploads-prod.s3.amazonaws.com/uploads/event/aashare_20201208211421313455.png" alt="" /></a>
 									<header>
 										<h3>Raphael G. Warnock</h3>
 									</header>
@@ -81,7 +74,7 @@
 						<div class="row">
 							<div class="col-6 col-12-narrower">
 								<section>
-									<a v-bind:href="'/candidates/16'" class="image featured"><img src="https://thehill.com/sites/default/files/loefflerkelly_010620gn5_lead.jpg" alt="" /></a>
+									<a v-bind:href="'/candidates/16'" class="image featured"><img src="https://i.ytimg.com/vi/h7jBsJ_cQV8/maxresdefault.jpg" alt="" /></a>
 									<header>
 										<h3>Kelly Loeffler</h3>
 									</header>
@@ -91,7 +84,7 @@
 							<div class="col-6 col-12-narrower">
 
 								<section>
-									<a v-bind:href="'/candidates/15'" class="image featured"><img src="https://media3.s-nbcnews.com/j/newscms/2020_48/3431011/201125-david_perdue-mc-1313_cb5780c62237fbfebd446ea807170c06.nbcnews-fp-1200-630.JPG" alt="" /></a>
+									<a v-bind:href="'/candidates/15'" class="image featured"><img src="https://bloximages.chicago2.vip.townnews.com/valdostadailytimes.com/content/tncms/assets/v3/editorial/2/b1/2b1b939e-c143-11ea-930f-37cc41fa9de6/5f060725009ab.image.png?resize=1066%2C630" alt="" /></a>
 									<header>
 										<h3>David Perdue</h3>
 									</header>
@@ -135,6 +128,13 @@ export default {
     this.candidateIndex();
   },
   methods: {
+    isLoggedIn: function () {
+      if (localStorage.getItem("jwt")) {
+        return true;
+      } else {
+        return false;
+      }
+    },
     candidateIndex: function () {
       console.log("candidate index");
       axios.get("/api/candidates").then((response) => {

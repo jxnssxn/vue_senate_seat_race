@@ -3,31 +3,23 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
+
 				<header id="header" class="alt">
 					<h1 id="logo">SSR <span>by Jimmy Jonsson</span></h1>
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="/candidates/">Home</a></li>
-							<li class="submenu">
-								<a href="#">Candidates</a>
+							<!-- <li class="submenu"> -->
+								<!-- <a href="#">Candidates</a>
 								<ul>
 									<li><a href="left-sidebar.html">Jon Ossoff</a></li>
 									<li><a href="right-sidebar.html">Raphael Warnock</a></li>
 									<li><a href="no-sidebar.html">Kelly Leoffler</a></li>
 									<li><a href="contact.html">David Perdue</a></li>
-									<!-- <li class="submenu">
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Dolore Sed</a></li>
-											<li><a href="#">Consequat</a></li>
-											<li><a href="#">Lorem Magna</a></li>
-											<li><a href="#">Sed Magna</a></li>
-											<li><a href="#">Ipsum Nisl</a></li>
-										</ul>
-									</li> -->
-								</ul>
-							</li>
-							<li><a href="/signup" class="button primary">Sign Up</a></li>
+								</ul> -->
+							<!-- </li> -->
+							<li v-if="!isLoggedIn()"><a href="/signup" class="button primary">Sign Up</a></li>
+							<li v-if="isLoggedIn()" class="current"><a href="/logout">Logout</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -192,7 +184,7 @@
 				<footer id="footer">
 
 					<ul class="icons">
-						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://twitter.com/SenateSeatRace" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<!-- <li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
 						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li> -->
@@ -211,3 +203,18 @@
 
 <style>
 </style>
+
+<script>
+export default {
+  methods: {
+    isLoggedIn: function () {
+      if (localStorage.getItem("jwt")) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
+};
+</script>
+

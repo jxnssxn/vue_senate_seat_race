@@ -128,7 +128,7 @@ candidateIndex
 <script>
 import axios from "axios";
 import Vue from "vue";
-Vue.component("button-counter", {
+
   data: function () {
     return {
       count: 0,

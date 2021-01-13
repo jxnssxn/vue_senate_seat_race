@@ -56,8 +56,8 @@
 											<h4>Email: {{candidate.email}}</h4>
 											<h4>Age: {{candidate.age}}</h4>
 											<h4>Party: {{candidate.party_registered_to}}</h4>
-											<h4>Thumbs up: {{candidate.thumbs_up}}</h4>
-											<h4>Thumbs down: {{candidate.thumbs_down}}</h4>
+											<!-- <h4>Thumbs up: {{candidate.thumbs_up}}</h4>
+											<h4>Thumbs down: {{candidate.thumbs_down}}</h4> -->
 										</header>
 										<div v-for="issue in issues">
 											<h3><strong>{{ issue.topic }}</strong></h3>
@@ -76,10 +76,12 @@
 									<section>
 										<header>
 											<h4>Visit {{candidate.full_name}}'s website</h4>
+												<h4><a>{{candidate.site}}</a>
+											</h4>
 										</header>
 										<footer>
 											<ul class="buttons">
-												<li><a href="" class="button small">Visit site</a></li>
+												<li><a  href="" class="button small">Visit site</a></li>
 											</ul>
 										</footer>
 									</section>
@@ -123,23 +125,11 @@
 <style>
 </style>
 
+
+
 <script>
 import axios from "axios";
 import Vue from "vue";
-
-Vue.component("button primary", "button", {
-  data: function () {
-    return {
-      thumbsUp: 0,
-      thumbsDown: 0,
-      count: 0,
-    };
-  },
-  template:
-    '<button v-on:click="count++">You clicked me {{ count }} times.</button>',
-});
-
-// new Vue({ el: "#components-demo" });
 
 export default {
   data: function () {
