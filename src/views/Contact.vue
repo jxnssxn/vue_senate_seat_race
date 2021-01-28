@@ -37,9 +37,10 @@
 			</header>
 
 			<!-- One -->
-				<section class="wrapper style4 special container medium">
+				<section class="wrapper style4 special container large">
 
 					<!-- Content -->
+					<section class="wrapper style4 special container large">
 						<div class="content">
 							<form>
 								<div class="row gtr-50">
@@ -63,7 +64,7 @@
 								</div>
 							</form>
 						</div>
-
+					</section>
 				</section>
 
 		</article>

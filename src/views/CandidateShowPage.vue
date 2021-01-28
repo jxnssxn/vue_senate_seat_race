@@ -39,8 +39,8 @@
 						<h3>Give {{candidate.full_name}} a thumbs up or a thumbs down, based on how you align with the stances on health care, criminal justice reform, climate crisis, and social justice inequality.</h3>
 						</p>
 						<ul class="buttons">	
-							<li><a href="#" class="button primary"><i class="fa fa-thumbs-up"></i> Thumbs up</a></li>							
-							<li><a href="#" class="button"><i class="fa fa-thumbs-down"></i> Thumbs down</a></li>
+							<!-- <li><a href="#" class="button primary"><i class="fa fa-thumbs-up"></i> Thumbs up</a></li>							
+							<li><a href="#" class="button"><i class="fa fa-thumbs-down"></i> Thumbs down</a></li> -->
 						</ul>
 							<div class="box">
 								<p>{{candidate.bio}}</p>
@@ -71,9 +71,9 @@
 					<!-- Two -->
 						<section class="wrapper style1 container special">
 							<div class="row">
-								<div class="col-4 col-12-narrower">
+								<div class="col-3 col-12-narrower">
 
-									<section>
+									<!-- <section>
 										<header>
 											<h4>Visit {{candidate.full_name}}'s website</h4>
 												<h4><a>{{candidate.site}}</a>
@@ -84,10 +84,10 @@
 												<li><a  href="" class="button small">Visit site</a></li>
 											</ul>
 										</footer>
-									</section>
+									</section> -->
 
 								</div>
-								<div class="col-4 col-12-narrower">
+								<div class="col-3 col-12-narrower">
 
 									<section>
 										<header>
@@ -101,7 +101,7 @@
 									</section>
 
 								</div>
-								<div class="col-4 col-12-narrower">
+								<div class="col-3 col-12-narrower">
 
 									<section>
 										<header>

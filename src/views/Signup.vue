@@ -20,7 +20,7 @@
 						<p>Make <strong>your voice</strong>, count.
 						<br />
 						Sign up and follow the candidates on their
-						<br />to the senate.</p>
+						<br /> path to the senate.</p>
 						<footer>
 							<!-- <ul class="buttons stacked">
 								<li><a href="/login" class="button fit scrolly">Login</a></li>
@@ -65,9 +65,9 @@ import axios from "axios";
 export default {
   data: function () {
     return {
-      name: "",
-      email: "",
-      password: "",
+      name: " ",
+      email: " ",
+      password: " ",
       passwordConfirmation: "",
       errors: [],
     };

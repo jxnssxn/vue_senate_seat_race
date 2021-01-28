@@ -59,7 +59,7 @@ export default {
   data: function () {
     return {
       email: "frank@dejonng.com",
-      password: "password",
+      password: "",
       errors: [],
     };
   },
